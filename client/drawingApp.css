@@ -1,0 +1,70 @@
+.red {
+  background-color: red;
+  color: white;
+}
+
+.orange {
+  background-color: orange;
+  color: white;
+}
+
+.yellow {
+  background-color: yellow;
+  color: white;
+}
+
+.green {
+  background-color: green;
+  color: white;
+}
+
+.lightGreen {
+  background-color: #00FF00;
+  color: white;
+}
+
+.cyan {
+  background-color: cyan;
+  color: white;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+}
+
+.violet {
+  background-color: #8000FF;
+  color: white;
+}
+
+.magenta {
+  background-color: #8B008B;
+  color: white;
+}
+
+.pink {
+  background-color: #FF0080;
+  color: white;
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
+
+.white {
+  background-color: white;
+  color: black;
+}
+
+.clear {
+  position:absolute;
+  bottom: 10px;
+  background-color: red;
+  color: black;
+}
+
+.button-wrapper .btn {
+  margin-bottom: 5px;
+}

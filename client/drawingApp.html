@@ -1,0 +1,44 @@
+  <head>
+    <title>1-wall</title>
+  </head>
+  <body>
+    {{> wall}}
+  </body>
+
+<template name="wall">
+  <div class="container">
+    <h1>1-wall</h1>
+
+    {{> inputs}}
+    {{> canvas}}
+  </div>
+</template>
+
+<template name="inputs">
+  <p>Select a color and draw. Choose another color. Change line thickness anytime.</p>
+  <div class="btn-group color-group" role="group" aria-label="color-palette">
+    <button type="button" class="red          btn btn-primary">Red</button>
+    <button type="button" class="orange       btn btn-primary">Orange</button>
+    <button type="button" class="yellow       btn btn-primary">Yellow</button>
+    <button type="button" class="green        btn btn-primary">Green</button>
+    <button type="button" class="lightGreen   btn btn-primary">Light green</button>
+    <button type="button" class="cyan         btn btn-primary">Cyan</button>
+    <button type="button" class="blue         btn btn-primary">Blue</button>
+    <button type="button" class="violet       btn btn-primary">Violet</button>
+    <button type="button" class="magenta      btn btn-primary">Magenta</button>
+    <button type="button" class="pink         btn btn-primary">Pink</button>
+    <button type="button" class="black        btn btn-primary">Black</button>
+    <button type="button" class="white        btn btn-primary">White</button>
+  </div>
+  <button type="button" class="btn btn-primary btn-danger clear"><span class="glyphicon glyphicon-remove">Clear</span></button>
+  <br><br>
+  <p>Line thickness</p>
+  <div class="btn-group-vertical button-wrapper" role="group" aria-label="controls">
+    <button type="button" class="thicker btn btn-primary btn-info btn-lg"><span class="glyphicon glyphicon-arrow-up">Thicker</span></button>
+    <button type="button" class="thinner btn btn-primary btn-info btn-xs"><span class="glyphicon glyphicon-arrow-down">Thinner</span></button>
+  </div>
+</template>
+
+<template name="canvas">
+  <div id="canvas"></div>
+</template>
